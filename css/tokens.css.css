@@ -1,0 +1,171 @@
+/* colors */
+:root {
+  --: #ffffff;
+  --f-7-fbf-5: #f7fbf5;
+  --707070: #707070;
+  --f-0797-d: #f0797d;
+  --fcc-94-a: #fcc94a;
+  --f-9-a-66-c: #f9a66c;
+  --4-a-6162: #4a6162;
+  --e-4-ebd-3: #e4ebd3;
+  --f-8-c-8-ca: #f8c8ca;
+  --fddbc-4: #fddbc4;
+  --fee-9-b-7: #fee9b7;
+  --fbc-949: #fbc949;
+}
+/* fonts */
+:root {        
+--arial: Arial;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--nobel: Nobel;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--nobel: Nobel;
+--nobel: Nobel;
+--nobel: Nobel;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+--nobel: Nobel;
+--nobel: Nobel;
+--nobel: Nobel;
+--tomarik: Tomarik;
+--tomarik: Tomarik;
+}
+/* text styles*/
+.nav {
+  font-family : var(--tomarik);
+  font-size : 51px;
+  line-height: 70px;
+  letter-spacing : 0.1em;
+}
+.header-2 {
+  font-family : var(--tomarik);
+  font-size : 57px;
+  line-height: 78px;
+  letter-spacing : 0.1em;
+}
+.image-descriptor {
+  font-family : var(--nobel);
+  font-size : 36px;
+  line-height: 51px;
+  letter-spacing : 0.1em;
+}
+.header-1-alt {
+  font-family : var(--tomarik);
+  font-size : 100px;
+  line-height: 134px;
+  letter-spacing : 0.1em;
+}
+.header-3 {
+  font-family : var(--tomarik);
+  font-size : 44px;
+  line-height: 61px;
+  letter-spacing : 0.1em;
+}
+.button {
+  font-family : var(--tomarik);
+  font-size : 40px;
+  line-height: 56px;
+  letter-spacing : 0.1em;
+}
+.phone-tagline {
+  font-family : var(--nobel);
+  font-size : 16px;
+  line-height: 25px;
+  letter-spacing : 0.1em;
+}
+.phone-bold-text {
+  font-family : var(--nobel);
+  font-size : 24px;
+  line-height: 35px;
+  letter-spacing : 0.1em;
+}
+.phone-book-text {
+  font-family : var(--nobel);
+  font-size : 20px;
+  line-height: 30px;
+  letter-spacing : 0.1em;
+}
+.phone-button {
+  font-family : var(--tomarik);
+  font-size : 19px;
+  line-height: 29px;
+  letter-spacing : 0.1em;
+}
+.header-1 {
+  font-family : var(--tomarik);
+  font-size : 100px;
+  line-height: 134px;
+  letter-spacing : 0.1em;
+}
+.bold-text {
+  font-family : var(--nobel);
+  font-size : 44px;
+  line-height: 61px;
+  letter-spacing : 0.1em;
+}
+.book-text {
+  font-family : var(--nobel);
+  font-size : 40px;
+  line-height: 52px;
+  letter-spacing : 0px;
+}
+.web-tagline {
+  font-family : var(--nobel);
+  font-size : 36px;
+  line-height: 51px;
+  letter-spacing : 0.1em;
+}
+.phone-header-1 {
+  font-family : var(--tomarik);
+  font-size : 44px;
+  line-height: 61px;
+  letter-spacing : 0.1em;
+}
+.phone-header-2 {
+  font-family : var(--tomarik);
+  font-size : 36px;
+  line-height: 51px;
+  letter-spacing : 0.1em;
+}
+/* SpacePatterns */
+:root {
+  --none: 0px;
+  --xx-small: 2px;
+  --x-small: 4px;
+  --small: 8px;
+  --regular: 16px;
+  --large: 32px;
+  --x-large: 64px;
+  --xx-large: 128px;
+}
+/* durations */
+:root {
+  --instant: 0;
+  --x-fast: 128;
+  --fast: 160;
+  --normal: 200;
+  --slow: 250;
+  --x-slow: 313;
+}
+/* ease curves*/
+:root {
+  --ease-in: cubic-bezier(0.42, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.58, 1);
+  --ease-in-out: cubic-bezier(0.42, 0, 0.58, 1);
+}
+/* transitions*/
+:root {
+}
+/* images */
+:root {
+  --banner-image: url(https://storage.googleapis.com/toolabs-beta-20-2.appspot.com/board_assets/dOSQvoGth7UnoO4uMUnmKHfnnNT2/-MZFq8jCo77OZTMRDbk8/XGhD9Sztm/?GoogleAccessId&#x3D;firebase-adminsdk-38e8u%40toolabs-beta-20-2.iam.gserviceaccount.com&amp;Expires&#x3D;16447017600&amp;Signature&#x3D;Hg0%2FxomHVXvMQ2POHZnHVDX35iblb8byPz1cChtzx59YxftfVSgtHZiWtmVEKm%2B3esbiY5G5wNRfWN7AQB6KzieV9hFVeHCOiGL0P%2B1IRFiWqrXB46CH7M0BNzNlJ%2Fcs2KBv3afQebuDHrLvZrf%2FzbXweqnaCnfwNX7PoJBe1HzALXQSjtqklJiRbwX7GoCXQjlRe1f9UErGQRwSUMRDqov%2BJFWYAbKTpaBZMsw%2BfBMIh%2BDrb3mPsgop5zfQ6pUUD4bkbDlQG4cTub8z7BfXk%2FBGIQdkkF2bCzvDu5%2FW7sIImGbPVckOg4hsLIfcztj%2FcMs%2BC3Q%2FUpdHxBWXhTOK6g%3D%3D);
+  --banner-image-alt: url(https://storage.googleapis.com/toolabs-beta-20-2.appspot.com/board_assets/dOSQvoGth7UnoO4uMUnmKHfnnNT2/-MZFq8jCo77OZTMRDbk8/QSBWglLuz/?GoogleAccessId&#x3D;firebase-adminsdk-38e8u%40toolabs-beta-20-2.iam.gserviceaccount.com&amp;Expires&#x3D;16447017600&amp;Signature&#x3D;EtXRNOilwItPhoxHOcMspZdE9tx0%2B8P3kuV8ssGp1tKaas1AuohS6wgpMHd6S31SIaHKKH34%2FrkTFgpvvf9JNZIquSMZJd5w0EV75Xb4DAOmHHfH9Oxt7x5U9FUezeLWMKY00C3VGP%2Bu9nnAEpY52v4twklE5kt%2BnC9ZDcCNb1n2J0yaeiixVM1Ibi0MDyIvZI69Df1pqIbrPp3p1DTSqQda2zE6y2gj990qk06mJQIgh8mi9AQUFyRlLH0Qe8ZHH2dWYNpdIYOpV4OcyojdC%2FhdolU8ptIp%2BK%2FGN84UpyeY6XlNu2YcyLuUHCS5u5D%2Fzm3AtQF21jTPzxrPs3CoIQ%3D%3D);
+  --logo-1: url(https://storage.googleapis.com/toolabs-beta-20-2.appspot.com/board_assets/dOSQvoGth7UnoO4uMUnmKHfnnNT2/-MZFq8jCo77OZTMRDbk8/qRGz-E-YH/?GoogleAccessId&#x3D;firebase-adminsdk-38e8u%40toolabs-beta-20-2.iam.gserviceaccount.com&amp;Expires&#x3D;16447017600&amp;Signature&#x3D;Gkpbv9wboJjaRD6u%2B4ZMjlOhQptyTT6LdLTCiMoAhhU3Nmof%2FS%2Frg1CJ0mCos3ZWESJyTcBwHPW7unB2%2Fib4gCsKd0pOdcEQMS2BhYvYsxkvIOQ%2F%2Baqgby0Sj2ul0lHgyGkn9NOyYWlLFbDHqI5%2FAhBY9%2BVW%2F2D5gbw5%2FIOi%2F8VbiFibkThi2p6CuV%2F66gH9AmttNMsIWPuF4dlTSDCVv8g4k2C%2BGa2OXE5QRYMhIyo9%2B7SX3xbgcri0Y9mX12sPUrNUGoncUyFin%2Bue%2FnKFQq4uYfvBd%2BVpCZhr2avVO8Ow3HII%2BAds9XsuQhF9hmEtCpPZryoA07j7Sd2UXi%2Fi8Q%3D%3D);
+  --logo-2: url(https://storage.googleapis.com/toolabs-beta-20-2.appspot.com/board_assets/dOSQvoGth7UnoO4uMUnmKHfnnNT2/-MZFq8jCo77OZTMRDbk8/EXPxu5y00/?GoogleAccessId&#x3D;firebase-adminsdk-38e8u%40toolabs-beta-20-2.iam.gserviceaccount.com&amp;Expires&#x3D;16447017600&amp;Signature&#x3D;S0pZ87gXdfj2u6CJNc2CzmuCchNjM45SLA%2FJ0fWCK89X1fhm9LoacmFQLRg1zdPO1wslFhghjB50ZLlT9hmLd%2FCSArGF1%2Bz2jHCtvxnMlWpedHoUFRoNuWPvEC6vYNusjXMkNU2BxrnVX0UsilwZ0SQwXn1ukp%2BR4yds9qfuJTYEINhVR5hJezawoEhezdnQMy9%2FesFDF863pfaZ6s9ohc6ldqZVJ9I%2F1QSlRhpVt3qXDqbZkdmOJq4iYTnLTQWYD0r2%2FQCNGRyYsgytWh2McZ3Ye8cTI0O9xG6CyL1DJm7f4AI6l5YBhaVdNTsJ1cxGFn3ehvvcj7q6HD6w2BX7wg%3D%3D);
+}
