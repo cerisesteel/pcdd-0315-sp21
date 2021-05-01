@@ -24,23 +24,38 @@ body {
   margin: 50px;
   background-color: #fafdf9;
   max-width: 1440px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #f0797d;
   padding: 10px;
 }
 
 .header {
-  position: absolute;
-  justify-content: center;
-  left: 350px;
-  right:350px;
-  margin: 4px;
+  justify-content: left;
+  margin: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.container {
-  margin-top: 175px;
-}
+
+.display1 {
+  display: block;
+  float: left;
+  width: 92%;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#f0797d;
+  margin: 24px;
+  padding: 16px;
+  }
+
+  .display2 {
+    display: block;
+    float: left;
+    width: 92%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9a66c;
+    margin: 24px;
+    padding: 16px;
+    }
 
 .typeexamples {
   float: left;
@@ -48,7 +63,24 @@ body {
   padding: 20px;
 }
 
-.image{
+.floatLeft {
+  float: left;
+  width: 60%;
+  display: block;
+}
+
+.floatRight {
+  float: right;
+  display: block;
+  width:40%;
+}
+
+.float {
+  float: left;
+  width: 100%;
+}
+
+.imgFull{
   position: relative;
   display: block;
 	margin-left: auto;
@@ -59,6 +91,33 @@ img{
   width: 100%; 
 	height: 100%; 
 	object-fit: contain;
+}
+
+.floatImgs {
+  float: left;
+  width: 45%;
+  display: block;
+  margin: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A6162;
+}
+
+#border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A6162;
+}
+
+.display {
+  display: block;
+  float: left;
+  width: 92%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fcc94a;
+  margin: 24px;
+  padding: 16px;
 }
 
 .pink {
@@ -144,7 +203,7 @@ h6{
   font-size: 1.1em;
 }
 
-p{
+p, li{
   font-family: nobel, helvetica, sans-serif; 
   font-weight: 300;
   font-style: normal;
